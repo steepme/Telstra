@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Telstra</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="network_error_retry">Error..! Try Again.</string>
+    <string name="title">Title is not available</string>
+    <string name="description">Description is not available</string>
+
+</resources>

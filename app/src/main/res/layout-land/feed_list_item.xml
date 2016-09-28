@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:background="@android:color/white"
+android:padding="10dp">
+
+
+<TextView
+    android:id="@+id/feed_title"
+    style="@style/style_feed_title"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/description"
+    android:textAlignment="gravity" />
+
+<ImageView
+    android:layout_marginTop="5dp"
+    android:id="@+id/feed_image"
+    android:layout_width="100dp"
+    android:layout_height="80dp"
+    android:layout_below="@id/feed_title"
+    android:layout_alignParentRight="true"
+    />
+
+<WebView
+    android:id="@+id/webview"
+    android:layout_width="450dp"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/feed_title"/>
+
+</RelativeLayout>
